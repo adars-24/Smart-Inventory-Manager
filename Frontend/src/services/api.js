@@ -61,7 +61,7 @@ export const salesAPI = {
 };
 
 export const mlAPI = {
-  predictDemand: (data) => api.post("/ml/predict", data),
+  predictDemand: (data) => api.post("/smart-reorder/suggest", data),
 };
 
 export const analyticsAPI = {
